@@ -1,0 +1,50 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(173, 38, 207);s */
+  /* align-items: center; */
+}
+.container {
+  margin-top: 1rem;
+  padding-top: 0;
+  width: 500px;
+  color: rgb(22, 104, 11);
+  height: 500px;
+  border: none;
+  background-color: #70dbd9;
+  /* background-color: rgb(190, 107, 38); */
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;; */
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  flex: 33%;
+  /* border: 1px solid black; */
+  display: flex;
+  color: rgb(22, 104, 11);
+  flex-direction: row;
+  border: none;
+}
+.header {
+  /* background-color: rgb(244, 248, 10); */
+
+  font-size: 5rem;
+  color: rgb(214, 9, 232);
+  text-align: center;
+  margin: 2rem 18rem 0 18rem;
+  padding-bottom: 0;
+  font-family: "Outfit", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+/* .row:hover {
+  background-color: #25bdba;
+} */
